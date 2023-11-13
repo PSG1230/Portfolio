@@ -929,7 +929,7 @@ a{
 
 .portfolio .categories-grid .categories ul li a.active {
     background-color: #3156dd;
-    padding: 0px 15px;
+    padding: 0px 20px;
     color: white;
     text-decoration: none;
 }
@@ -1212,20 +1212,19 @@ fieldset {
 ==================================================*/
 @media (max-width: 1201px){
     .brand_text{
-        padding: 123px 0px 0 0;
+        padding: 137px 0px 0 0;
     }
     .about_text> .h{
         padding-top:0px;
         padding-bottom:20px;
     }
+}
+@media (max-width: 1027px){
     nav ul{
         margin-left: 200px;
     }
     nav ul li a {
         font-size: 15px;
-    }
-    nav li{
-        padding: 0 5px;
     }
 }
 @media (max-width: 991px) {
@@ -1243,13 +1242,7 @@ fieldset {
         text-align: center;
     }
     .project_btn{
-        padding:2px 20px!important;
-    }
-    nav li{
-        margin: 15px 0 10px 0px;
-    }
-    nav li a{
-        font-size: 14px!important;
+        padding:3px 10px;
     }
 }
 
@@ -1261,12 +1254,8 @@ fieldset {
         width: 90%;
         left: 2em;
     }
-    nav ul{
-        margin-left: 100px;
-    }
-    nav li{
-        margin: 15px 0 10px 0px;
-        padding: 0 3px!important;
+    nav li a {
+        font-size: 7px;
     }
     .brand_img{
         display: none;
@@ -1284,35 +1273,12 @@ fieldset {
         padding-left: 30px;
     }
 }
-@media (max-width: 630px){
-    nav ul{
-        margin-left: 50px;
-    }
-    nav li{
-        margin: 15px 0 10px 0px;
-        padding: 0 5px;
-    }
-    nav li a{
-        font-size: 11px!important;
-    }
-    .categories ul li a{
-        margin: 0 10px!important;
-    }
-    .portfolio .categories-grid .categories ul li a.active{
-        padding: 0px 10px;
-    }
-}
+
 @media (max-width: 500px) {
     h1 {
         font-family: '양진체', serif;
         font-size: 50px;
         line-height: 50px;
-    }
-    nav ul{
-        margin-left: 0px;
-    }
-    .categories ul li a{
-        margin: 0 5px!important;
     }
     #home,
     .disply-table {
@@ -1363,26 +1329,10 @@ nav ul{
     margin-left: 0px;
 }
 }
-@media (max-width: 453px){	
-    nav li{
-        margin: 15px 0 10px 0px;
-        padding: 0 5px;
-    }
-    nav li a{
-        font-size: 8px!important;
-    }
-    .categories ul li a{
-        margin: 0 0px!important;
-    }
-}
 @media (max-width: 333px) {
     .item_info{
         padding-top:30px;
-    }
-    
-    nav li a{
-        font-size: 8px!important;
-    }
+    }	
 }
 .portfolio_container .brand_container .col-md-12{padding-left:0;
 	padding-right:0;}
